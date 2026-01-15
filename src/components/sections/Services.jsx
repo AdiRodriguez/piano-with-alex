@@ -1,8 +1,8 @@
 import React from 'react';
 import { Check, Music, Clock, Star } from 'lucide-react';
 
-// 1. Accept 'text' as a prop
-const Services = ({ text }) => {
+// 1. We added 'whatsappLink' to the props here
+const Services = ({ text, whatsappLink }) => {
   // Prevent crash if data hasn't loaded yet
   if (!text) return null;
 
@@ -23,7 +23,6 @@ const Services = ({ text }) => {
           <div className="bg-blue-600 p-8 md:p-12 text-white flex flex-col justify-center items-center md:w-1/3 text-center">
             <h3 className="text-xl font-medium opacity-90 mb-2">{text.per_lesson}</h3>
             <div className="text-6xl font-bold mb-2">{text.price}</div>
-            {/* We can re-use the per_lesson text or add a specific subtext here if needed */}
             <p className="opacity-90 font-medium">{text.per_lesson}</p>
           </div>
 
@@ -81,9 +80,15 @@ const Services = ({ text }) => {
             </div>
 
             <div className="mt-8 pt-8 border-t border-gray-100">
-               <button className="w-full bg-gray-900 text-white py-4 rounded-xl font-bold shadow-lg hover:bg-gray-800 transition-all transform active:scale-95">
+               {/* 2. Changed from <button> to <a> and added the link props */}
+               <a 
+                 href={whatsappLink}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="block w-full text-center bg-gray-900 text-white py-4 rounded-xl font-bold shadow-lg hover:bg-gray-800 transition-all transform active:scale-95"
+               >
                  {text.btn}
-               </button>
+               </a>
             </div>
           </div>
 

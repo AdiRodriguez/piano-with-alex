@@ -24,7 +24,7 @@ const Gallery = ({ text }) => {
   if (!text) return null;
 
   return (
-    <section className="py-16 bg-white overflow-hidden" dir="ltr">
+    <section id="gallery" className="py-16 bg-white overflow-hidden" dir="ltr">
       
       {/* Header */}
       <div className="text-center mb-10 px-4">
@@ -41,8 +41,8 @@ const Gallery = ({ text }) => {
 {/* The Track */}
         <div className="flex">
           <motion.div
-            className="flex gap-4 min-w-max" /* Added min-w-max to prevent squishing */
-            animate={{ x: "-50%" }} /* Move exactly half the total length */
+            className="flex gap-4 min-w-max" 
+            animate={{ x: "-50%" }}
             transition={{
               repeat: Infinity,
               ease: "linear",

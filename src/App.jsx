@@ -32,6 +32,7 @@ function App() {
         lang={lang} 
         setLang={setLang} 
         text={text.nav} 
+        whatsappLink={text.contact.whatsapp_link}
       />
       
       <main>
@@ -39,14 +40,17 @@ function App() {
         <Hero text={text.hero} />  
         <Reviews text={text.reviews} />  
         <About text={text.about} />    
-        <Services text={text.pricing} /> 
+        <Services 
+        text={text.pricing}
+        whatsappLink={text.contact.whatsapp_link}
+         /> 
         <Gallery text={text.gallery} /> 
            
       </main>
 
       <Footer text={text.contact} />      
       
-      <WhatsAppFloat />
+      <WhatsAppFloat whatsappLink={text.contact.whatsapp_link} />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 
-const Navbar = ({ lang, setLang, text }) => {
+// 1. We added 'whatsappLink' here so we can use it
+const Navbar = ({ lang, setLang, text, whatsappLink }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
 
@@ -59,10 +60,15 @@ const Navbar = ({ lang, setLang, text }) => {
               )}
             </div>
 
-            {/* CTA Button */}
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+            {/* CTA Button - NOW A WHATSAPP LINK */}
+            <a 
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition-colors"
+            >
               {text.book}
-            </button>
+            </a>
           </div>
 
           {/* Mobile Controls (Hamburger + Lang) */}

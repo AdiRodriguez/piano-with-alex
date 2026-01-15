@@ -20,6 +20,7 @@ export const content = {
     reviews: {
       title: "מה התלמידים אומרים",
       subtitle: "ביקורות מאומתות מגוגל",
+      link_text: "קראו את כל הביקורות בגוגל",
       items: [
         {
           name: "דנה כהן",
@@ -75,6 +76,7 @@ export const content = {
     },
     contact: {
       title: "בואו נתחיל לנגן",
+      whatsapp_link: "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לשמוע%20פרטים%20על%20שיעורי%20פסנתר",
       desc: "מוכנים לשיעור הראשון? שלחו לי הודעה או התקשרו. אני בדרך כלל עונה תוך 24 שעות.",
       address: "דגל ראובן 62, פתח תקווה",
       rights: "כל הזכויות שמורות"
@@ -106,6 +108,7 @@ export const content = {
     reviews: {
       title: "What Students Say",
       subtitle: "Verified Google Reviews",
+      link_text: "Read all reviews on Google",
       items: [
         { name: "Dana C.", text: "Alex is amazing! My daughter loves the lessons.", stars: 5 },
         { name: "Yoni L.", text: "I always wanted to play Jazz and Alex made it happen.", stars: 5 },
@@ -149,6 +152,7 @@ export const content = {
     },
     contact: {
       title: "Let's Start Playing",
+      whatsapp_link: "https://wa.me/972546320495?text=Hi%20Alex,%20I'm%20interested%20in%20piano%20lessons",
       desc: "Ready to book your first lesson? Send me a message or give me a call. I usually reply within 24 hours.",
       address: "Degel Re'uven St 62, Petah Tikva",
       rights: "All rights reserved."
@@ -180,6 +184,7 @@ export const content = {
     reviews: {
       title: "Отзывы учеников",
       subtitle: "Проверенные отзывы Google",
+      link_text: "Читать все отзывы в Google",
       items: [
         { name: "Дана К.", text: "Алекс потрясающий учитель! Дочь в восторге.", stars: 5 },
         { name: "Йони Л.", text: "Всегда хотел играть джаз, и Алекс помог.", stars: 5 },
@@ -223,6 +228,7 @@ export const content = {
     },
     contact: {
       title: "Начнем играть",
+      whatsapp_link: "https://wa.me/972546320495?text=Здравствуйте,%20Алекс,%20я%20хочу%20узнать%20насчет%20уроков",
       desc: "Готовы к первому уроку? Отправьте сообщение или позвоните. Я обычно отвечаю в течение 24 часов.",
       address: "ул. Дегель Реувен 62, Петах-Тиква",
       rights: "Все права защищены"
