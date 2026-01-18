@@ -1,8 +1,7 @@
 import React from 'react';
 
-// 1. Accept the 'whatsappLink' prop
 const WhatsAppFloat = ({ whatsappLink }) => {
-  // If the link is missing for some reason, don't break the app
+
   if (!whatsappLink) return null;
 
   return (
@@ -16,7 +15,7 @@ const WhatsAppFloat = ({ whatsappLink }) => {
       {/* Green Circle Container */}
       <div className="bg-[#25D366] p-4 rounded-full shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow">
         
-        {/* Official WhatsApp SVG Logo */}
+        {/* Official WhatsApp Logo */}
         <svg 
           viewBox="0 0 24 24" 
           width="32" 

@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 
-// 1. We added 'whatsappLink' here so we can use it
 const Navbar = ({ lang, setLang, text, whatsappLink }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
 
   const toggleLanguage = (newLang) => {
     setLang(newLang);
-    setIsLangMenuOpen(false); // Close menu after selection
+    setIsLangMenuOpen(false); 
   };
 
   const menuItems = [
     { name: text.home, href: '#home' },
     { name: text.lessons, href: '#lessons' },
+    { name: text.reviews, href: '#reviews' },
     { name: text.about, href: '#about' },
     { name: text.gallery, href: '#gallery' },
     { name: text.contact, href: '#contact' },
@@ -41,7 +41,7 @@ const Navbar = ({ lang, setLang, text, whatsappLink }) => {
               </a>
             ))}
 
-            {/* Language Switcher (Desktop) */}
+            {/* Language Switcher */}
             <div className="relative">
               <button 
                 onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
@@ -60,7 +60,7 @@ const Navbar = ({ lang, setLang, text, whatsappLink }) => {
               )}
             </div>
 
-            {/* CTA Button - NOW A WHATSAPP LINK */}
+            {/* CTA Button */}
             <a 
               href={whatsappLink}
               target="_blank"
@@ -71,9 +71,9 @@ const Navbar = ({ lang, setLang, text, whatsappLink }) => {
             </a>
           </div>
 
-          {/* Mobile Controls (Hamburger + Lang) */}
+          {/* Mobile Controls */}
           <div className="md:hidden flex items-center gap-4">
-             {/* Mobile Language Toggle (Cycle through) */}
+             {/* Mobile Language */}
              <button 
                 onClick={() => {
                   if (lang === 'he') setLang('en');

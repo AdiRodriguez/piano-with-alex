@@ -16,8 +16,8 @@ import pic13 from '../../assets/Alex_Gallary_13.jpg'
 import pic14 from '../../assets/Alex_Gallary_14.jpg'
 import pic15 from '../../assets/Alex_Gallary_15.jpg'
 
-// Temporary Placeholders - Replace these imports with your real assets later!
-// import img1 from '../../assets/img1.jpg';
+
+
 const images = [pic1, pic2, pic3, pic4, pic5,pic6,pic7,pic8,pic9,pic10,pic11,pic12,pic13,pic14,pic15];
 
 const Gallery = ({ text }) => {
@@ -34,7 +34,7 @@ const Gallery = ({ text }) => {
 
       {/* The Moving Marquee */}
       <div className="relative w-full">
-        {/* Gradients to fade edges (Optional style touch) */}
+       
         <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-white to-transparent z-10"></div>
         <div className="absolute top-0 right-0 w-20 h-full bg-gradient-to-l from-white to-transparent z-10"></div>
 
@@ -46,7 +46,7 @@ const Gallery = ({ text }) => {
             transition={{
               repeat: Infinity,
               ease: "linear",
-              duration: 120, /* Slower speed since the strip is longer now */
+              duration: 120, 
             }}
           >
             {/* DUPLICATE 4 TIMES to ensure infinite loop on wide screens */}

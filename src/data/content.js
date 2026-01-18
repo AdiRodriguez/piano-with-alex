@@ -6,6 +6,7 @@ export const content = {
       home: "ראשי",
       lessons: "שיעורים",
       about: "אודות",
+      reviews: "המלצות",
       gallery: "גלריה",
       contact: "צור קשר",
       book: "הזמן שיעור"
@@ -13,9 +14,9 @@ export const content = {
     hero: {
       title: "ללמוד פסנתר",
       subtitle: "בכל גיל",
-      desc: "שיעורי פסנתר מקצועיים בתל אביב. ללמוד בכיף, בקצב שלך, ובלי תסכולים.",
+      desc: "שיעורי פסנתר מקצועיים בפתח-תקווה. ללמוד בכיף, בקצב שלך, ובלי תסכולים.",
       cta_primary: "תיאום שיעור ניסיון",
-      cta_secondary: "צפו בי מנגן"
+      cta_secondary: "גלריה "
     },
     reviews: {
       title: "מה התלמידים אומרים",
@@ -23,18 +24,18 @@ export const content = {
       link_text: "קראו את כל הביקורות בגוגל",
       items: [
         {
-          name: "דנה כהן",
-          text: "אלכס מורה מדהים! הבת שלי מחכה לשיעור כל שבוע. יש לו סבלנות אין סופית והוא יודע איך לגשת לילדים.",
+          name: "דוד אגוזי",
+          text: "ממליץ בחום! אלכס מסביר בצורה ברורה ומובנת, מאוד סבלני, ובכללי אדם נעים.",
           stars: 5
         },
         {
-          name: "יוני לוי",
-          text: "תמיד חלמתי לנגן ג'אז ואלכס הגשים לי את החלום. השיטה שלו מאוד פרקטית ובלי בזבוז זמן.",
+          name: "האני סטולמן",
+          text: "אני תלמידה מבוגרת של אלכס, ומצאתי אותו סבלני, בעל ידע רב, והוא לימד אותי הרבה יותר מאשר רק את התווים!! אני ממליצה בחום על אלכס לכל גיל.",
           stars: 5
         },
         {
-          name: "משפחת גולן",
-          text: "אנחנו לומדים אצל אלכס כבר שנתיים. מקצוען אמיתי, גמיש בשעות ותמיד עם חיוך.",
+          name: "מרטין גרינפלד",
+          text: "אלכס מורה מעולה. יש לו סבלנות אינסופית, הוא יודע להסביר בצורה נכונה וברורה, ויש לו את הגישה הנכונה כדי להמריץ את התלמיד. בנוסף לידע העצום שלו במוזיקה, זה מה שהופך את אלכס למורה אידיאלי. ממליץ עליו בחום!!",
           stars: 5
         }
       ]
@@ -94,6 +95,7 @@ export const content = {
       home: "Home",
       lessons: "Lessons",
       about: "About",
+      reviews: "Reviews",
       gallery: "Gallery",
       contact: "Contact",
       book: "Book Now"
@@ -110,9 +112,9 @@ export const content = {
       subtitle: "Verified Google Reviews",
       link_text: "Read all reviews on Google",
       items: [
-        { name: "Dana C.", text: "Alex is amazing! My daughter loves the lessons.", stars: 5 },
-        { name: "Yoni L.", text: "I always wanted to play Jazz and Alex made it happen.", stars: 5 },
-        { name: "The Golans", text: "We've been learning with Alex for 2 years. A true pro.", stars: 5 }
+        { name: "David Agozi", text: "Highly Recommended! Alex provides information in a clear and understandable manner, is very patient, and is generally a pleasant person.", stars: 5 },
+        { name: "Honey Stollman", text: "I am an older student of Alex and I found him patient, knowledgeable, who taught me more than just the notes!! I highly recommend Alex for any age.", stars: 5 },
+        { name: "Martin Grinfeld", text: "Alex is an excellent Teacher. He has endless patience, knows how to explain correctly, and has the right attitude to motivate his students.", stars: 5 }
       ]
     },
     pricing: {
@@ -170,6 +172,7 @@ export const content = {
       home: "Главная",
       lessons: "Уроки",
       about: "Обо мне",
+      reviews: "Отзывы",
       gallery: "Галерея",
       contact: "Контакты",
       book: "Записаться"

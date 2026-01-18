@@ -8,7 +8,7 @@ import WhatsAppFloat from './components/ui/WhatsAppFloat';
 import Reviews from './components/sections/Reviews';
 import Gallery from './components/sections/Gallery';
 
-// Import the text data
+
 import { content } from './data/content';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
   }, [lang, text.dir]);
 
   return (
-    // We pass the 'lang' and 'text' props down to components that need them
+
     <div className="bg-white min-h-screen font-sans relative transition-all duration-300">
       
       <Navbar 
@@ -36,10 +36,9 @@ function App() {
       />
       
       <main>
-        {/* We pass specific sections of text to each component */}
-        <Hero text={text.hero} />  
+        <Hero text={text.hero} /> 
+        <About text={text.about} />  
         <Reviews text={text.reviews} />  
-        <About text={text.about} />    
         <Services 
         text={text.pricing}
         whatsappLink={text.contact.whatsapp_link}

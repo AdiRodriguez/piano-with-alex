@@ -5,24 +5,22 @@ const Reviews = ({ text }) => {
   if (!text) return null;
 
   return (
-    <section className="py-16 bg-white border-b border-gray-100">
+    <section id="reviews" className="py-16 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Header... (No changes here) */}
+        {/* Header */}
         <div className="text-center mb-12">
-          {/* ... existing header code ... */}
            <h2 className="text-3xl font-bold text-gray-900 mb-2">{text.title}</h2>
-           {/* ... etc ... */}
         </div>
 
         {/* Reviews Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12"> {/* Added mb-12 for spacing */}
+        <div className="grid md:grid-cols-3 gap-8 mb-12"> 
           {text.items.map((review, index) => (
             <div 
               key={index} 
               className="bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow relative"
             >
-              {/* ... existing review card code ... */}
+              {/* review card*/}
                <div className="flex gap-1 mb-4">
                 {[...Array(review.stars)].map((_, i) => (
                   <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />
@@ -46,7 +44,7 @@ const Reviews = ({ text }) => {
           ))}
         </div>
 
-        {/* NEW: The "See All" Button */}
+        {/* The "See All" Button */}
         <div className="text-center">
           <a 
             href="https://maps.app.goo.gl/zxyLuzJYiN8YAyvr6" // <--- PASTE HIS GOOGLE MAPS LINK HERE

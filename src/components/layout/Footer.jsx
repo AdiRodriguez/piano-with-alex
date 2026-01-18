@@ -84,7 +84,7 @@ const Footer = ({ text }) => {
       </div> 
 
       <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} PianoWithAlex. {text.rights}
+        © {new Date().getFullYear()} Música with Alex. {text.rights}
       </div>
     </footer>
   );

@@ -11,7 +11,7 @@ const About = ({ text }) => {
         <div className="flex flex-col md:flex-row items-start gap-12">
           
           {/* 1. Image Side */}
-          {/* FIXED: 'relative' on mobile (scrolls normally), 'sticky' only on desktop */}
+          
           <div className="w-full md:w-1/2 relative md:sticky md:top-24 mb-12 md:mb-0"> 
             <div className="relative">
               {/* Decorative Border */}

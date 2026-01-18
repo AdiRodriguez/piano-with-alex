@@ -1,9 +1,8 @@
 import React from 'react';
 import { Check, Music, Clock, Star } from 'lucide-react';
 
-// 1. We added 'whatsappLink' to the props here
+
 const Services = ({ text, whatsappLink }) => {
-  // Prevent crash if data hasn't loaded yet
   if (!text) return null;
 
   return (
@@ -80,7 +79,6 @@ const Services = ({ text, whatsappLink }) => {
             </div>
 
             <div className="mt-8 pt-8 border-t border-gray-100">
-               {/* 2. Changed from <button> to <a> and added the link props */}
                <a 
                  href={whatsappLink}
                  target="_blank"
