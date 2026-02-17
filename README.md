@@ -3,10 +3,9 @@
 A modern, multi-language landing page for Alexander Minulin, a professional piano teacher based in Tel Aviv. 
 This project was built to help new students discover the studio, view the gallery, and book lessons easily via WhatsApp.
 
-**Live Demo:** [https://piano-with-alex.netlify.app](https://your-real-link-here.com)
 
-![Project Screenshot](public/og-image.jpg) 
-*(Make sure to add a screenshot of the Hero section here later!)*
+
+
 
 ---
 
@@ -68,3 +67,4 @@ src/
 │   └── content.js   # The "Brain" - contains all text for 3 languages
 ├── App.jsx          # Main layout and language state logic
 └── main.jsx         # Entry point
+
