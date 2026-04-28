@@ -1,6 +1,6 @@
 # 🎹 Piano With Alex (Piano Teacher Website)
 
-A modern, multi-language landing page for Alexander Minulin, a professional piano teacher based in Tel Aviv. 
+A modern, multi-language landing page for Alexander Minulin. 
 This project was built to help new students discover the studio, view the gallery, and book lessons easily via WhatsApp.
 
 
