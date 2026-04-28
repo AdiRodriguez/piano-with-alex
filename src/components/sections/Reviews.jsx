@@ -1,5 +1,6 @@
 import React from 'react';
-import { Star, ExternalLink } from 'lucide-react'; // Added ExternalLink icon
+// 1. Added the Facebook icon here
+import { Star, ExternalLink, Facebook } from 'lucide-react'; 
 
 const Reviews = ({ text }) => {
   if (!text) return null;
@@ -11,16 +12,16 @@ const Reviews = ({ text }) => {
         {/* Header */}
         <div className="text-center mb-12">
            <h2 className="text-3xl font-bold text-gray-900 mb-2">{text.title}</h2>
+           <p className="text-gray-600">{text.subtitle}</p>
         </div>
 
         {/* Reviews Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12"> 
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           {text.items.map((review, index) => (
             <div 
               key={index} 
               className="bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow relative"
             >
-              {/* review card*/}
                <div className="flex gap-1 mb-4">
                 {[...Array(review.stars)].map((_, i) => (
                   <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />
@@ -44,17 +45,31 @@ const Reviews = ({ text }) => {
           ))}
         </div>
 
-        {/* The "See All" Button */}
-        <div className="text-center">
+        {/* 2. THE BUTTONS CONTAINER */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          
+          {/* Google Button */}
           <a 
-            href="https://maps.app.goo.gl/zxyLuzJYiN8YAyvr6" // <--- PASTE HIS GOOGLE MAPS LINK HERE
+            href="https://share.google/ZnjyA3W9mbZ4fIs82" 
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors border border-blue-100 hover:border-blue-300 px-6 py-3 rounded-full bg-blue-50"
+            className="inline-flex w-full sm:w-auto justify-center items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors border border-blue-100 hover:border-blue-300 px-6 py-3 rounded-full bg-blue-50"
           >
             {text.link_text}
             <ExternalLink size={18} />
           </a>
+
+          {/* Facebook Button */}
+          <a 
+            href="https://www.facebook.com/share/1AnzhBGGmk/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-full sm:w-auto justify-center items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors border border-blue-100 hover:border-blue-300 px-6 py-3 rounded-full bg-blue-50"
+          >
+            {text.fb_link_text}
+            <Facebook size={18} />
+          </a>
+
         </div>
 
       </div>

@@ -18,7 +18,7 @@ import pic15 from '../../assets/Alex_Gallary_15.jpg'
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5,pic6,pic7,pic8,pic9,pic10,pic11,pic12,pic13,pic14,pic15];
+const images = [pic1, pic2, pic3, pic4, pic5,pic6,,pic8,pic9,pic10,pic11,pic12,pic13,pic14,];
 
 const Gallery = ({ text }) => {
   if (!text) return null;

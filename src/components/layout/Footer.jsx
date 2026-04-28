@@ -46,7 +46,7 @@ const Footer = ({ text }) => {
         <div className="flex flex-col h-full">
           <div className="bg-gray-800 w-full h-64 rounded-2xl mb-6 overflow-hidden relative">
              <iframe 
-               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.836754060854!2d34.876543!3d32.096543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d367468641775%3A0x6700874609805045!2sDegel%20Re'uven%20St%2062%2C%20Petah%20Tikva!5e0!3m2!1sen!2sil!4v1642250000000!5m2!1sen!2sil" 
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.536518129404!2d34.86836559999999!3d32.081782399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d35e36051dbf9%3A0x82e8d856f37ad29!2z15DXnNeb16HXoNeT16gt157Xldeo15Qg15zXpNeh16DXqteoLCDXkNeV16jXktefLCDXpNeZ16rXldeXINen15XXnCDXldeX15zXmdec15nXqiDXkdek16rXlyDXqten15XXldeU!5e0!3m2!1sen!2sil!4v1777378902538!5m2!1sen!2sil" 
                width="100%" 
                height="100%" 
                style={{border:0}} 
@@ -84,7 +84,7 @@ const Footer = ({ text }) => {
       </div> 
 
       <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Música with Alex. {text.rights}
+        © {new Date().getFullYear()} Alexander's Studio. {text.rights}
       </div>
     </footer>
   );

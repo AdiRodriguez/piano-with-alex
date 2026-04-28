@@ -7,6 +7,7 @@ import About from './components/sections/About';
 import WhatsAppFloat from './components/ui/WhatsAppFloat';
 import Reviews from './components/sections/Reviews';
 import Gallery from './components/sections/Gallery';
+import Videos from './components/sections/Videos';
 
 
 import { content } from './data/content';
@@ -23,10 +24,10 @@ function App() {
     document.documentElement.dir = text.dir;
     document.documentElement.lang = lang;
   }, [lang, text.dir]);
-
+  //(we don't really need "transition-all duration -300")
   return (
 
-    <div className="bg-white min-h-screen font-sans relative transition-all duration-300">
+    <div className="bg-white min-h-screen font-sans relative transition-all duration-300"> 
       
       <Navbar 
         lang={lang} 
@@ -38,7 +39,8 @@ function App() {
       <main>
         <Hero text={text.hero} /> 
         <About text={text.about} />  
-        <Reviews text={text.reviews} />  
+        <Reviews text={text.reviews} /> 
+        <Videos text={text.videos} /> 
         <Services 
         text={text.pricing}
         whatsappLink={text.contact.whatsapp_link}

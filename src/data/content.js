@@ -2,26 +2,28 @@ export const content = {
   he: {
     dir: "rtl",
     nav: {
-      logo: "נגינה עם אלכס",
+      logo: "סטודיו אלכסנדר",
       home: "ראשי",
       lessons: "שיעורים",
       about: "אודות",
       reviews: "המלצות",
+      videos: "סרטונים",
       gallery: "גלריה",
       contact: "צור קשר",
       book: "הזמן שיעור"
     },
     hero: {
-      title: "ללמוד פסנתר",
+      title: "ללמוד לנגן",
       subtitle: "בכל גיל",
-      desc: "שיעורי פסנתר מקצועיים בפתח-תקווה. ללמוד בכיף, בקצב שלך, ובלי תסכולים.",
-      cta_primary: "תיאום שיעור ניסיון",
+      desc: "מורה מוסמך לפסנתר, אורגן, פיתוח קול וחלילית, עם 30 שנות ניסיון, סבלנות רבה ורצון לתת!",
+      cta_primary: "תיאום שיעור",
       cta_secondary: "גלריה "
     },
     reviews: {
-      title: "מה התלמידים אומרים",
+      title: "המלצות תלמידים",
       subtitle: "ביקורות מאומתות מגוגל",
-      link_text: "קראו את כל הביקורות בגוגל",
+      link_text: "קראו ביקורות נוספות בגוגל",
+      fb_link_text: "קראו ביקורות נוספות בפייסבוק", 
       items: [
         {
           name: "דוד אגוזי",
@@ -40,6 +42,15 @@ export const content = {
         }
       ]
     },
+    videos: {
+      title: "צפו בביצועים",
+      subtitle: "טעימה קטנה מהשיעורים ומהתלמידים שלי",
+      items: [
+        { id: "UZB2Mlrvjlk", title: "שיעור פסנתר" },
+        { id: "28u0AzQNBDU", title: "שיעור אורגן" },
+        { id: "6ejOw7eWiLs", title: "שיעור חלילית" }
+      ]
+    },
     pricing: {
       title: "מחיר פשוט ושקוף",
       sub: "הכל כלול. בלי הפתעות.",
@@ -55,21 +66,21 @@ export const content = {
         flex: "זמנים גמישים",
         flex_desc: "תיאום נוח בוואטסאפ"
       },
-      btn: "הזמן שיעור ראשון"
+      btn: "הזמן שיעור"
     },
     about: {
       title: "נעים להכיר, אלכסנדר",
-      badge_years: "25+",
+      badge_years: "30",
       badge_text: "שנות ניסיון",
-      p1: "שלום! שמי אלכסנדר מינולין – מורה מוסמך לפסנתר, אורגן וחלילית, פסנתרן ומלחין, עם 25 שנות ניסיון והמון סבלנות.",
+      p1: "שלום! שמי אלכסנדר מינולין – מורה מוסמך לפסנתר, אורגן, פיתוח קול וחלילית, פסנתרן ומלחין, בוגר אקדמיה למוזיקה ותעודת הוראה.",
       p2: "השיעורים מתאימים לגילאי 5–120, באווירה מהנה וחווייתית של צלילים ומקצבים.",
-      p3: "לימוד בשיטה ייחודית שפיתחתי להשגה מהירה של טכניקת נגינה – מתאימה גם למבוגרים ולתלמידים עם קשב וריכוז או לקויות למידה, תוך שימוש בדרכי לימוד לא שגרתיות.",
+      p3: "לימוד בשיטה ייחודית שפיתחתי להשגה מהירה של טכניקת נגינה – מתאימה גם למבוגרים ולתלמידים עם קשיי קשב וריכוז או לקויות למידה, תוך שימוש בדרכי לימוד לא שגרתיות.",
       skills_title: "בשיעורים עובדים על:",
       skills: [
         "פיתוח שמיעה וסולפג׳",
         "קריאת תווים ואקורדים",
         "תאוריה והרמוניה",
-        "ליווי שירים",
+        "טכניקות ליווי שירים",
         "אלתור, עיבוד והלחנה",
         "הכנה לבגרויות ורסיטלים"
       ],
@@ -78,7 +89,7 @@ export const content = {
     contact: {
       title: "בואו נתחיל לנגן",
       whatsapp_link: "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לשמוע%20פרטים%20על%20שיעורי%20פסנתר",
-      desc: "מוכנים לשיעור הראשון? שלחו לי הודעה או התקשרו. אני בדרך כלל עונה תוך 24 שעות.",
+      desc: "התקשרו או שלחו לי הודעת ווטסאפ:",
       address: "דגל ראובן 62, פתח תקווה",
       rights: "כל הזכויות שמורות"
     },
@@ -96,6 +107,7 @@ export const content = {
       lessons: "Lessons",
       about: "About",
       reviews: "Reviews",
+      videos: "Videos",
       gallery: "Gallery",
       contact: "Contact",
       book: "Book Now"
@@ -111,10 +123,20 @@ export const content = {
       title: "What Students Say",
       subtitle: "Verified Google Reviews",
       link_text: "Read all reviews on Google",
+      fb_link_text: "Read more reviews on Facebook", 
       items: [
         { name: "David Agozi", text: "Highly Recommended! Alex provides information in a clear and understandable manner, is very patient, and is generally a pleasant person.", stars: 5 },
         { name: "Honey Stollman", text: "I am an older student of Alex and I found him patient, knowledgeable, who taught me more than just the notes!! I highly recommend Alex for any age.", stars: 5 },
         { name: "Martin Grinfeld", text: "Alex is an excellent Teacher. He has endless patience, knows how to explain correctly, and has the right attitude to motivate his students.", stars: 5 }
+      ]
+    },
+    videos: {
+      title: "Watch Us Play",
+      subtitle: "A small glimpse into my lessons and students",
+      items: [
+        { id: "UZB2Mlrvjlk", title: "Piano Lesson" },
+        { id: "28u0AzQNBDU", title: "Keyboard Lesson" },
+        { id: "6ejOw7eWiLs", title: "Flute Lesson" }
       ]
     },
     pricing: {
@@ -173,6 +195,7 @@ export const content = {
       lessons: "Уроки",
       about: "Обо мне",
       reviews: "Отзывы",
+      videos: "Видео",
       gallery: "Галерея",
       contact: "Контакты",
       book: "Записаться"
@@ -188,10 +211,20 @@ export const content = {
       title: "Отзывы учеников",
       subtitle: "Проверенные отзывы Google",
       link_text: "Читать все отзывы в Google",
+      fb_link_text: "Читать больше отзывов в Facebook",
       items: [
         { name: "Дана К.", text: "Алекс потрясающий учитель! Дочь в восторге.", stars: 5 },
         { name: "Йони Л.", text: "Всегда хотел играть джаз, и Алекс помог.", stars: 5 },
         { name: "Семья Голан", text: "Учимся уже два года. Настоящий профессионал.", stars: 5 }
+      ]
+    },
+    videos: {
+      title: "Смотрите, как мы играем",
+      subtitle: "Небольшой взгляд на мои уроки и учеников",
+      items: [
+        { id: "UZB2Mlrvjlk", title: "Урок фортепиано" },
+        { id: "28u0AzQNBDU", title: "Урок синтезатора" },
+        { id: "6ejOw7eWiLs", title: "Урок флейты" }
       ]
     },
     pricing: {
@@ -218,6 +251,15 @@ export const content = {
       p1: "Здравствуйте! Меня зовут Александр Минолин — сертифицированный преподаватель фортепиано, органа и блокфлейты, пианист и композитор, с 25-летним опытом и большим терпением.",
       p2: "Уроки подходят для возраста 5–120 лет и проходят в тёплой, увлекательной атмосфере звуков и ритмов.",
       p3: "Я обучаю по собственной методике для быстрого прогресса в технике игры — она отлично подходит и взрослым, и ученикам с трудностями в обучении или СДВГ, с использованием творческих, нестандартных подходов.",
+      skills_title: "На уроках мы развиваем:",
+      skills: [
+        "Музыкальный слух и сольфеджио",
+        "Чтение нот и аккордов",
+        "Теорию музыки и гармонию",
+        "Аккомпанемент песен",
+        "Импровизацию, аранжировку и композицию",
+        "Подготовку к экзаменам и концертам"
+      ],
       skills_title: "На уроках мы развиваем:",
       skills: [
         "Музыкальный слух и сольфеджио",

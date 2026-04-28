@@ -12,9 +12,9 @@ const Navbar = ({ lang, setLang, text, whatsappLink }) => {
 
   const menuItems = [
     { name: text.home, href: '#home' },
-    { name: text.lessons, href: '#lessons' },
     { name: text.reviews, href: '#reviews' },
     { name: text.about, href: '#about' },
+    { name: text.videos, href: '#videos'},
     { name: text.gallery, href: '#gallery' },
     { name: text.contact, href: '#contact' },
   ];
