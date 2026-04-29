@@ -1,6 +1,6 @@
 # 🎹 Piano With Alex (Piano Teacher Website)
 
-A modern, multi-language landing page for Alexander Minulin, a professional piano teacher based in Tel Aviv. 
+A modern, multi-language landing page for Alexander Minulin. 
 This project was built to help new students discover the studio, view the gallery, and book lessons easily via WhatsApp.
 
 
@@ -32,25 +32,15 @@ This project was built to help new students discover the studio, view the galler
 
 ## 🚀 How to Run Locally
 
-If you want to clone and run this project on your own computer:
+If you want to clone and run this project on your own computer: [I'll do it later]
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/piano-teacher-site.git](https://github.com/YOUR_USERNAME/piano-teacher-site.git)
-    cd piano-teacher-site
-    ```
+1.
 
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
+2.
 
-3.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
+3. 
 
-4.  Open `http://localhost:5173` in your browser.
+4.  
 
 ---
 
