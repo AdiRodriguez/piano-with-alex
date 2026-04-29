@@ -6,7 +6,6 @@ import pic3 from '../../assets/Alex_Gallary_3.jpg'
 import pic4 from '../../assets/Alex_Gallary_4.jpg'
 import pic5 from '../../assets/Alex_Gallary_5.jpg'
 import pic6 from '../../assets/Alex_Gallary_6.jpg'
-import pic7 from '../../assets/Alex_Gallary_7.jpg'
 import pic8 from '../../assets/Alex_Gallary_8.jpg'
 import pic9 from '../../assets/Alex_Gallary_9.jpg'
 import pic10 from '../../assets/Alex_Gallary_10.jpg'
@@ -14,11 +13,10 @@ import pic11 from '../../assets/Alex_Gallary_11.jpg'
 import pic12 from '../../assets/Alex_Gallary_12.jpg'
 import pic13 from '../../assets/Alex_Gallary_13.jpg'
 import pic14 from '../../assets/Alex_Gallary_14.jpg'
-import pic15 from '../../assets/Alex_Gallary_15.jpg'
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5,pic6,,pic8,pic9,pic10,pic11,pic12,pic13,pic14,];
+const images = [pic1, pic2, pic3, pic4, pic5,pic6, pic8, pic9, pic10, pic11, pic12, pic13, pic14];
 
 const Gallery = ({ text }) => {
   if (!text) return null;
