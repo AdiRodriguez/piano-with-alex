@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pianowithalex.com/sitemap.xml
+Sitemap: https://alexander-studio.netlify.app/

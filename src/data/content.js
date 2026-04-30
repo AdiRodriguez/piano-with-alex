@@ -55,7 +55,7 @@ export const content = {
       title: "מחיר פשוט ושקוף",
       sub: "הכל כלול. בלי הפתעות.",
       per_lesson: "לשיעור",
-      price: "₪140",
+      price: "₪150",
       features: {
         time: "45 דקות",
         time_desc: "זמן למידה אופטימלי",
@@ -88,8 +88,8 @@ export const content = {
     },
     contact: {
       title: "בואו נתחיל לנגן",
-      whatsapp_link: "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לשמוע%20פרטים%20על%20שיעורי%20פסנתר",
-      desc: "התקשרו או שלחו לי הודעת ווטסאפ:",
+      whatsapp_link: "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לפרטים%20על%20שיעורי%20נגינה",
+      desc: "התקשרו או שלחו לי הודעת בווטסאפ:",
       address: "דגל ראובן 62, פתח תקווה",
       rights: "כל הזכויות שמורות"
     },
@@ -176,7 +176,7 @@ export const content = {
     },
     contact: {
       title: "Let's Start Playing",
-      whatsapp_link: "https://wa.me/972546320495?text=Hi%20Alex,%20I'm%20interested%20in%20piano%20lessons",
+      whatsapp_link: "https://wa.me/972546320495?text=Hi%20Alex,%20I%20would%20love%20to%20get%20more%20info%20about%20your%20lessons!",
       desc: "Ready to book your first lesson? Send me a message or give me a call. I usually reply within 24 hours.",
       address: "Degel Re'uven St 62, Petah Tikva",
       rights: "All rights reserved."
@@ -273,7 +273,7 @@ export const content = {
     },
     contact: {
       title: "Начнем играть",
-      whatsapp_link: "https://wa.me/972546320495?text=Здравствуйте,%20Алекс,%20я%20хочу%20узнать%20насчет%20уроков",
+      whatsapp_link: "https://wa.me/972546320495?text=Здравствуйте,%20Александр!%20Я%20хотел(а)%20бы%20узнать%20подробнее%20об%20уроках.",
       desc: "Готовы к первому уроку? Отправьте сообщение или позвоните. Я обычно отвечаю в течение 24 часов.",
       address: "ул. Дегель Реувен 62, Петах-Тиква",
       rights: "Все права защищены"
