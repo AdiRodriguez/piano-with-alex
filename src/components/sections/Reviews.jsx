@@ -20,16 +20,22 @@ const Reviews = ({ text }) => {
           {text.items.map((review, index) => (
             <div 
               key={index} 
-              className="bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow relative"
+              // 1. THIS IS THE MAGIC TRICK TO HIDE REVIEWS 5 & 6 ON MOBILE
+              className={`bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow relative ${
+                index >= 4 ? 'hidden md:block' : ''
+              }`}
             >
                <div className="flex gap-1 mb-4">
                 {[...Array(review.stars)].map((_, i) => (
                   <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 relative z-10 leading-relaxed">
+              
+              {/* 2. Added whitespace-pre-line so \n creates real line breaks */}
+              <p className="text-gray-700 mb-6 relative z-10 leading-relaxed whitespace-pre-line">
                 {review.text}
               </p>
+              
               <div className="flex items-center gap-3">
                 <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold ${
                   index % 2 === 0 ? 'bg-blue-500' : 'bg-green-500'

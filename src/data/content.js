@@ -10,46 +10,61 @@ export const content = {
       videos: "סרטונים",
       gallery: "גלריה",
       contact: "צור קשר",
-      book: "הזמן שיעור"
+      book: "הזמן שיעור",
     },
     hero: {
       title: "ללמוד לנגן",
       subtitle: "בכל גיל",
       desc: "מורה מוסמך לפסנתר, אורגן, פיתוח קול וחלילית, עם 30 שנות ניסיון, סבלנות רבה ורצון לתת!",
       cta_primary: "תיאום שיעור",
-      cta_secondary: "גלריה "
+      cta_secondary: "גלריה ",
     },
     reviews: {
-      title: "המלצות תלמידים",
+      title: "מה התלמידים אומרים",
       subtitle: "ביקורות מאומתות מגוגל",
-      link_text: "קראו ביקורות נוספות בגוגל",
-      fb_link_text: "קראו ביקורות נוספות בפייסבוק", 
+      link_text: "קראו את כל הביקורות בגוגל",
+      fb_link_text: "קראו ביקורות נוספות בפייסבוק",
       items: [
         {
-          name: "דוד אגוזי",
-          text: "ממליץ בחום! אלכס מסביר בצורה ברורה ומובנת, מאוד סבלני, ובכללי אדם נעים.",
-          stars: 5
+          name: "אייל רופא",
+          text: "מורה תותח\nהביא אותי מרמת אפס ידע למצב שבוא אני מנגן\nומופיע על במות\nיתן לכם כל מה שתצטרכו מרמת הכרת התווים ועד\nלשמוע ולנגן כמו שצריך",
+          stars: 5,
         },
         {
-          name: "האני סטולמן",
-          text: "אני תלמידה מבוגרת של אלכס, ומצאתי אותו סבלני, בעל ידע רב, והוא לימד אותי הרבה יותר מאשר רק את התווים!! אני ממליצה בחום על אלכס לכל גיל.",
-          stars: 5
+          name: "Michael Kuts",
+          text: "אני לומד אצל אלכס כבר 7 שנים. התחלתי בגיל\nמאוחר יחסית, 25 ואני מאוד נהנה מהנגינה\nומהלימוד של אלכס.\n\nאני מרגיש שאלכס יודע לדחוף אותי ללמוד דברים\nחדשים, לעבוד על יצירות ומסביר לי תיאוריה ואני\nמרגיש שאני יודע מה אני עושה וממש נהנה\nמהנגינה כתוצאה מזה.\n\nאלכס קשוב ויודע להתאים יצירות לפי מה שבא לי\nללמוד ויהיה לי כיף. לא רק להביא יצירות, אלא גם\nתרגילים לפיתוח שמיעה ואלתור.\n\nממש בית ספר באדם אחד קשוב ואכפתי.",
+          stars: 5,
         },
         {
-          name: "מרטין גרינפלד",
-          text: "אלכס מורה מעולה. יש לו סבלנות אינסופית, הוא יודע להסביר בצורה נכונה וברורה, ויש לו את הגישה הנכונה כדי להמריץ את התלמיד. בנוסף לידע העצום שלו במוזיקה, זה מה שהופך את אלכס למורה אידיאלי. ממליץ עליו בחום!!",
-          stars: 5
-        }
-      ]
+          name: "Hila Moshkovits",
+          text: "ממליצה על אלכס! הבת שלי בת 7.5 לומדת\nפסנתר אצלו, והוא מקסים איתה. עדין, ברור. מדבר\nבגובה העיניים, יש עקביות בין שיעור לשיעור.\nומדייק אותה בנגינה.",
+          stars: 5,
+        },
+        {
+          name: "Elya Vovak",
+          text: "מורה מקצועי, סבלני ונעים מאוד. השיעורים היו\nברורים, מדויקים ובאווירה טובה ותומכת. הרגשתי\nשיש הקשבה אמיתית ותשומת לב לפרטים.\nממליצה בחום לכל מי שמחפש/ת מורה לפיתוח\nקול עם יחס אישי 🌸",
+          stars: 5,
+        },
+        {
+          name: "MAYA YESHAYAHU",
+          text: "אלכסנדר הינו מורה מקצועי,רציני, אדיב,נעים,סבלני\nמתחשב וקשוב, בעל ידע נרחב במוזיקה ,תמיד\nפנוי,זמין ויודע לענות על כל שאלה, איש שיחה\nמעניין וחכם, ומעביר את השיעור בצורה חוויתית.\nתמיד מוסיף ידע וסיפורים מעניינים מעולם\nהמוזיקה ובכלל שמעשירים את הידע ומוסיפים\nללמידה, מתאים לכל הגילאים.\nממליצה בחום להירשם אצלו לא תתאכזבו!!!",
+          stars: 5,
+        },
+        {
+          name: "Almog Kidra",
+          text: "אלכסנדר פשוט איש יקר, תוך מספר שיעורים\nבודדים הקפיץ את הרמה שלי בתאוריה המוזיקלית\nוניגון פסנתר!! מסביר בשפה נכונה לכל אחד מסודר\nמדוייק יודע להסביר בידיוק לפי רמת התלמיד\nשמולו ויש הרבה מה ללמוד ממנו . מי שמעוניין\nללמוד ברמה מקצועית באמת רק אלכסנדר יעשה\nלכם חיים קלים.",
+          stars: 5,
+        },
+      ],
     },
     videos: {
       title: "צפו בביצועים",
       subtitle: "טעימה קטנה מהשיעורים ומהתלמידים שלי",
       items: [
-        { id: "UZB2Mlrvjlk", title: "שיעור פסנתר" },
+        { id: "Y39xVpteZa4", title: "שיעור פסנתר" },
         { id: "28u0AzQNBDU", title: "שיעור אורגן" },
-        { id: "6ejOw7eWiLs", title: "שיעור חלילית" }
-      ]
+        { id: "6ejOw7eWiLs", title: "שיעור חלילית" },
+      ],
     },
     pricing: {
       title: "מחיר פשוט ושקוף",
@@ -64,9 +79,9 @@ export const content = {
         exams: "הכנה למבחנים",
         exams_desc: "תמיכה מלאה ברסיטלים",
         flex: "זמנים גמישים",
-        flex_desc: "תיאום נוח בוואטסאפ"
+        flex_desc: "תיאום נוח בוואטסאפ",
       },
-      btn: "הזמן שיעור"
+      btn: "הזמן שיעור",
     },
     about: {
       title: "נעים להכיר, אלכסנדר",
@@ -82,21 +97,22 @@ export const content = {
         "תאוריה והרמוניה",
         "טכניקות ליווי שירים",
         "אלתור, עיבוד והלחנה",
-        "הכנה לבגרויות ורסיטלים"
+        "הכנה לבגרויות ורסיטלים",
       ],
-      closing: "אשמח לעמוד לשירותכם!"
+      closing: "אשמח לעמוד לשירותכם!",
     },
     contact: {
       title: "בואו נתחיל לנגן",
-      whatsapp_link: "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לפרטים%20על%20שיעורי%20נגינה",
+      whatsapp_link:
+        "https://wa.me/972546320495?text=היי%20אלכס,%20אשמח%20לפרטים%20על%20שיעורי%20נגינה",
       desc: "התקשרו או שלחו לי הודעת בווטסאפ:",
       address: "דגל ראובן 62, פתח תקווה",
-      rights: "כל הזכויות שמורות"
+      rights: "כל הזכויות שמורות",
     },
     gallery: {
       title: "רגעים מהשיעורים",
-      subtitle: "הצצה לאווירה בשיעורים"
-    }
+      subtitle: "הצצה לאווירה בשיעורים",
+    },
   },
 
   en: {
@@ -110,34 +126,61 @@ export const content = {
       videos: "Videos",
       gallery: "Gallery",
       contact: "Contact",
-      book: "Book Now"
+      book: "Book Now",
     },
     hero: {
       title: "Master the Piano",
       subtitle: "At Any Age",
       desc: "Professional piano lessons in Tel Aviv designed to make learning fun, fast, and frustration-free.",
       cta_primary: "Book Free Trial",
-      cta_secondary: "Watch Me Play"
+      cta_secondary: "Watch Me Play",
     },
     reviews: {
       title: "What Students Say",
       subtitle: "Verified Google Reviews",
       link_text: "Read all reviews on Google",
-      fb_link_text: "Read more reviews on Facebook", 
+      fb_link_text: "Read more reviews on Facebook",
       items: [
-        { name: "David Agozi", text: "Highly Recommended! Alex provides information in a clear and understandable manner, is very patient, and is generally a pleasant person.", stars: 5 },
-        { name: "Honey Stollman", text: "I am an older student of Alex and I found him patient, knowledgeable, who taught me more than just the notes!! I highly recommend Alex for any age.", stars: 5 },
-        { name: "Martin Grinfeld", text: "Alex is an excellent Teacher. He has endless patience, knows how to explain correctly, and has the right attitude to motivate his students.", stars: 5 }
+        {
+          name: "Eyal Rofe",
+          text: "An amazing teacher\nBrought me from zero knowledge to a point where I play\nand perform on stages\nWill give you everything you need from reading notes to\nhearing and playing properly.",
+          stars: 5,
+        },
+        {
+          name: "Michael Kuts",
+          text: "I have been studying with Alex for 7 years. I started at a relatively\nlate age, 25, and I really enjoy playing\nand learning from Alex.\n\nI feel that Alex knows how to push me to learn new\nthings, work on pieces, and explains theory to me, and I\nfeel like I know what I'm doing and really enjoy\nplaying as a result.\n\nAlex is attentive and knows how to adapt pieces to what I want\nto learn so it's fun. Not just bringing pieces, but also\nexercises for ear training and improvisation.\n\nTruly a one-man school, attentive and caring.",
+          stars: 5,
+        },
+        {
+          name: "Hila Moshkovits",
+          text: "Highly recommend Alex! My 7.5-year-old daughter takes\npiano lessons with him, and he is wonderful with her. Gentle, clear. Speaks\nat eye level, there is consistency between lessons.\nAnd makes her playing precise.",
+          stars: 5,
+        },
+        {
+          name: "Elya Vovak",
+          text: "Professional, patient, and very pleasant teacher. The lessons were\nclear, precise, and in a good, supportive atmosphere. I felt\nthere was genuine listening and attention to detail.\nHighly recommend to anyone looking for a voice\ntraining teacher with a personal touch 🌸",
+          stars: 5,
+        },
+        {
+          name: "MAYA YESHAYAHU",
+          text: "Alexander is a professional, serious, courteous, pleasant, patient\nconsiderate and attentive teacher, with extensive knowledge in music, always\navailable, accessible and knows how to answer any question, an interesting\nand smart conversationalist, and delivers the lesson in an experiential way.\nAlways adds knowledge and interesting stories from the music\nworld and in general that enrich the knowledge and add\nto the learning, suitable for all ages.\nHighly recommend signing up with him, you won't be disappointed!!!",
+          stars: 5,
+        },
+        {
+          name: "Almog Kidra",
+          text: "Alexander is simply a dear man, within just a few\nlessons he skyrocketed my level in music theory\nand piano playing!! Explains in a language suitable for everyone, organized\nprecise, knows exactly how to explain according to the level of the student\nin front of him and there is a lot to learn from him. Anyone who wants\nto truly learn at a professional level, only Alexander will make\nyour life easy.",
+          stars: 5,
+        }
       ]
     },
     videos: {
       title: "Watch Us Play",
       subtitle: "A small glimpse into my lessons and students",
       items: [
-        { id: "UZB2Mlrvjlk", title: "Piano Lesson" },
+        { id: "Y39xVpteZa4", title: "Piano Lesson" },
         { id: "28u0AzQNBDU", title: "Keyboard Lesson" },
-        { id: "6ejOw7eWiLs", title: "Flute Lesson" }
-      ]
+        { id: "6ejOw7eWiLs", title: "Flute Lesson" },
+      ],
     },
     pricing: {
       title: "Simple, Transparent Pricing",
@@ -152,9 +195,9 @@ export const content = {
         exams: "Exam Prep",
         exams_desc: "Full support for grades",
         flex: "Flexible Time",
-        flex_desc: "Easy rescheduling"
+        flex_desc: "Easy rescheduling",
       },
-      btn: "Book Your First Lesson"
+      btn: "Book Your First Lesson",
     },
     about: {
       title: "Nice to meet you, Alexander",
@@ -170,21 +213,22 @@ export const content = {
         "Music theory & harmony",
         "Song accompaniment",
         "Improvisation, arranging & composition",
-        "Preparation for exams & recitals"
+        "Preparation for exams & recitals",
       ],
-      closing: "I’d be happy to help you get started!"
+      closing: "I’d be happy to help you get started!",
     },
     contact: {
       title: "Let's Start Playing",
-      whatsapp_link: "https://wa.me/972546320495?text=Hi%20Alex,%20I%20would%20love%20to%20get%20more%20info%20about%20your%20lessons!",
+      whatsapp_link:
+        "https://wa.me/972546320495?text=Hi%20Alex,%20I%20would%20love%20to%20get%20more%20info%20about%20your%20lessons!",
       desc: "Ready to book your first lesson? Send me a message or give me a call. I usually reply within 24 hours.",
       address: "Degel Re'uven St 62, Petah Tikva",
-      rights: "All rights reserved."
+      rights: "All rights reserved.",
     },
     gallery: {
       title: "Moments from the Studio",
-      subtitle: "A glimpse into our lessons"
-    }
+      subtitle: "A glimpse into our lessons",
+    },
   },
 
   ru: {
@@ -198,14 +242,14 @@ export const content = {
       videos: "Видео",
       gallery: "Галерея",
       contact: "Контакты",
-      book: "Записаться"
+      book: "Записаться",
     },
     hero: {
       title: "Уроки фортепиано",
       subtitle: "Для всех возрастов",
       desc: "Профессиональные уроки фортепиано в Тель-Авиве. Учитесь с удовольствием и в своем темпе.",
       cta_primary: "Пробный урок",
-      cta_secondary: "Смотреть видео"
+      cta_secondary: "Смотреть видео",
     },
     reviews: {
       title: "Отзывы учеников",
@@ -213,19 +257,46 @@ export const content = {
       link_text: "Читать все отзывы в Google",
       fb_link_text: "Читать больше отзывов в Facebook",
       items: [
-        { name: "Дана К.", text: "Алекс потрясающий учитель! Дочь в восторге.", stars: 5 },
-        { name: "Йони Л.", text: "Всегда хотел играть джаз, и Алекс помог.", stars: 5 },
-        { name: "Семья Голан", text: "Учимся уже два года. Настоящий профессионал.", stars: 5 }
+        {
+          name: "Эяль Рофе",
+          text: "Потрясающий преподаватель\nДовел меня с нулевого уровня до того, что я играю\nи выступаю на сцене\nДаст вам все необходимое от чтения нот до\nумения слышать и играть правильно.",
+          stars: 5,
+        },
+        {
+          name: "Michael Kuts",
+          text: "Я учусь у Алекса уже 7 лет. Начал в относительно\nпозднем возрасте, в 25 лет, и мне очень нравится играть\nи учиться у Алекса.\n\nЯ чувствую, что Алекс умеет мотивировать изучать новые\nвещи, работать над произведениями и объясняет теорию, и я\nчувствую, что понимаю, что делаю, и получаю огромное удовольствие\nот игры в результате.\n\nАлекс внимателен и умеет подбирать произведения под то, что мне хочется\nизучать, чтобы было интересно. Не только произведения, но и\nупражнения на развитие слуха и импровизацию.\n\nНастоящая школа в одном человеке, внимательном и заботливом.",
+          stars: 5,
+        },
+        {
+          name: "Hila Moshkovits",
+          text: "Очень рекомендую Алекса! Моя дочка (7.5 лет) учится\nу него игре на фортепиано, и он прекрасно с ней ладит. Мягкий, понятный. Общается\nна равных, есть последовательность между уроками.\nИ добивается точности в ее игре.",
+          stars: 5,
+        },
+        {
+          name: "Elya Vovak",
+          text: "Профессиональный, терпеливый и очень приятный преподаватель. Уроки были\nпонятными, четкими и в хорошей, поддерживающей атмосфере. Я чувствовала\nискреннее внимание и внимание к деталям.\nОчень рекомендую всем, кто ищет преподавателя по\nвокалу с индивидуальным подходом 🌸",
+          stars: 5,
+        },
+        {
+          name: "MAYA YESHAYAHU",
+          text: "Александр — профессиональный, серьезный, вежливый, приятный, терпеливый\nвнимательный и чуткий преподаватель, с обширными знаниями в музыке, всегда\nна связи, доступен и умеет ответить на любой вопрос, интересный\nи умный собеседник, проводит уроки увлекательно.\nВсегда добавляет знания и интересные истории из мира\nмузыки и не только, что обогащает знания и дополняет\nобучение, подходит для всех возрастов.\nОчень рекомендую записаться к нему, вы не будете разочарованы!!!",
+          stars: 5,
+        },
+        {
+          name: "Almog Kidra",
+          text: "Александр просто замечательный человек, всего за несколько\nуроков он поднял мой уровень в теории музыки\nи игре на фортепиано!! Объясняет доступным для каждого языком, организован\nточен, знает как объяснить именно под уровень ученика,\nи у него есть чему поучиться. Тем, кто хочет\nдействительно учиться на профессиональном уровне — только Александр сделает\nвашу жизнь проще.",
+          stars: 5,
+        }
       ]
     },
     videos: {
       title: "Смотрите, как мы играем",
       subtitle: "Небольшой взгляд на мои уроки и учеников",
       items: [
-        { id: "UZB2Mlrvjlk", title: "Урок фортепиано" },
+        { id: "Y39xVpteZa4", title: "Урок фортепиано" },
         { id: "28u0AzQNBDU", title: "Урок синтезатора" },
-        { id: "6ejOw7eWiLs", title: "Урок флейты" }
-      ]
+        { id: "6ejOw7eWiLs", title: "Урок флейты" },
+      ],
     },
     pricing: {
       title: "Простая цена",
@@ -240,9 +311,9 @@ export const content = {
         exams: "Подготовка",
         exams_desc: "К экзаменам и концертам",
         flex: "Гибкий график",
-        flex_desc: "Удобное расписание"
+        flex_desc: "Удобное расписание",
       },
-      btn: "Записаться на урок"
+      btn: "Записаться на урок",
     },
     about: {
       title: "Приятно познакомиться, Александр",
@@ -258,7 +329,7 @@ export const content = {
         "Теорию музыки и гармонию",
         "Аккомпанемент песен",
         "Импровизацию, аранжировку и композицию",
-        "Подготовку к экзаменам и концертам"
+        "Подготовку к экзаменам и концертам",
       ],
       skills_title: "На уроках мы развиваем:",
       skills: [
@@ -267,20 +338,21 @@ export const content = {
         "Теорию музыки и гармонию",
         "Аккомпанемент песен",
         "Импровизацию, аранжировку и композицию",
-        "Подготовку к экзаменам и концертам"
+        "Подготовку к экзаменам и концертам",
       ],
-      closing: "Буду рад помочь вам начать!"
+      closing: "Буду рад помочь вам начать!",
     },
     contact: {
       title: "Начнем играть",
-      whatsapp_link: "https://wa.me/972546320495?text=Здравствуйте,%20Александр!%20Я%20хотел(а)%20бы%20узнать%20подробнее%20об%20уроках.",
+      whatsapp_link:
+        "https://wa.me/972546320495?text=Здравствуйте,%20Александр!%20Я%20хотел(а)%20бы%20узнать%20подробнее%20об%20уроках.",
       desc: "Готовы к первому уроку? Отправьте сообщение или позвоните. Я обычно отвечаю в течение 24 часов.",
       address: "ул. Дегель Реувен 62, Петах-Тиква",
-      rights: "Все права защищены"
+      rights: "Все права защищены",
     },
     gallery: {
       title: "Моменты из студии",
-      subtitle: "Атмосфера на уроках"
-    }
-  }
+      subtitle: "Атмосфера на уроках",
+    },
+  },
 };
