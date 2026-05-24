@@ -1,5 +1,4 @@
 import React from 'react';
-// 1. Added the Facebook icon here
 import { Star, ExternalLink, Facebook } from 'lucide-react'; 
 
 const Reviews = ({ text }) => {
@@ -10,17 +9,29 @@ const Reviews = ({ text }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
            <h2 className="text-3xl font-bold text-gray-900 mb-2">{text.title}</h2>
            <p className="text-gray-600">{text.subtitle}</p>
         </div>
+
+        {/* --- NEW: THE VIDEO SECTION --- */}
+        <div className="max-w-4xl mx-auto mb-14">
+          <div className="relative pt-[56.25%] w-full rounded-2xl overflow-hidden shadow-xl border-4 border-gray-50 bg-black">
+            <iframe 
+              src="https://www.youtube.com/embed/UZB2Mlrvjlk?rel=0" 
+              title="Alexander Piano Review Video"
+              className="absolute top-0 left-0 w-full h-full"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        {/* ------------------------------ */}
 
         {/* Reviews Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {text.items.map((review, index) => (
             <div 
               key={index} 
-              // 1. THIS IS THE MAGIC TRICK TO HIDE REVIEWS 5 & 6 ON MOBILE
               className={`bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow relative ${
                 index >= 4 ? 'hidden md:block' : ''
               }`}
@@ -31,7 +42,6 @@ const Reviews = ({ text }) => {
                 ))}
               </div>
               
-              {/* 2. Added whitespace-pre-line so \n creates real line breaks */}
               <p className="text-gray-700 mb-6 relative z-10 leading-relaxed whitespace-pre-line">
                 {review.text}
               </p>
@@ -51,7 +61,7 @@ const Reviews = ({ text }) => {
           ))}
         </div>
 
-        {/* 2. THE BUTTONS CONTAINER */}
+        {/* THE BUTTONS CONTAINER */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           
           {/* Google Button */}
