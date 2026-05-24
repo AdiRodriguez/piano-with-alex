@@ -83,8 +83,21 @@ const Footer = ({ text }) => {
         </div>
       </div> 
 
+      {/* --- THE UPDATED COPYRIGHT & DEVELOPER CREDIT --- */}
       <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Alexander's Studio. {text.rights}
+        <p className="mb-2">
+          © {new Date().getFullYear()} Alexander's Studio. {text.rights}
+        </p>
+        <p>
+          פיתוח ועיצוב אתרים: עדי רודריגז |{' '}
+          <a 
+            href="tel:0548061038" 
+            className="hover:text-gray-300 transition-colors inline-block"
+            dir="ltr"
+          >
+            054-806-1038
+          </a>
+        </p>
       </div>
     </footer>
   );
